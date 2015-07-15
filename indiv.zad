@@ -1,0 +1,25 @@
+# PR1_Uvar_Individ.zad.
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+var i;
+var a;
+var b;
+var chislo = prompt('Введите m (m<27)', '');
+m = parseInt(chislo);
+
+ for(i=0;i<10;i++) { 
+for(a=0;a<10;a++) {
+for(b=0;b<10;b++) {
+if(i+a+b == m ) { 
+alert( "Трехзначные натуральные числа,сумма цифр которых равна m " + i + a + b); }
+}}}
+</script>
+</head>
+<body>
+<img>Трехзначных натуральных чисел, сумма цифр которых равна m,больше нет.</img>
+</body>
+</html>
